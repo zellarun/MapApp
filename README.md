@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# Working With Maps App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a React Native mobile application that displays a map and allows the user to manage a list of saved locations. Locations can be added by typing an address or by using the device’s current GPS location. Each saved location appears both in a list and as a marker on the map.
 
-## Get started
+Selecting a location from the list will move the map to that location and zoom in.
 
-1. Install dependencies
+## What It Does
+- Interactive MapView using React Native Maps
+- Scrollable list of saved locations
+- Add a location by typing an address (geocoding)
+- Add current GPS location
+- Delete selected locations
+- Tap a list item to zoom to that marker on the map
+- Load and save location data from a remote URL
+- Supports device rotation (portrait and landscape)
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
+- React Native
+- Expo
+- react-native-maps
+- expo-location
+- JavaScript / TypeScript
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Running The App
+1. Install dependencies with your package manager.
+2. Start the Expo dev server (npx expo start)
+3. Open on iOS Simulator, Android Emulator, or Expo Go.
